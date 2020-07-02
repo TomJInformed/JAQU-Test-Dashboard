@@ -1,0 +1,54 @@
+// ----------------------------------------------------------------------------
+// Sass declarations
+// ----------------------------------------------------------------------------
+$background-color:  #FFFFFF;
+
+$title-color:       #FFFFFF;
+$moreinfo-color:    #0B0C0C;
+
+// ----------------------------------------------------------------------------
+// Widget-text styles
+// ----------------------------------------------------------------------------
+.widget-status {
+
+  background-color: $background-color;
+
+  .status-tag-passed {
+    background-color: #FFFFFF;
+    width: 30px;
+    color: #00823B;
+    border: 5px solid #00823B;
+    // padding: 5px;
+    margin: 100px;
+  }
+
+  .status-tag-failed {
+    background-color: #FFFFFF;
+    width: 30px;
+    color: #B10E1E;
+    border: 5px solid #B10E1E;
+    //padding: 5px;
+    margin: 100px;
+  }
+
+  .status-tag-unavailable {
+    background-color: #FFFFFF;
+    width: 30px;
+    color: #BFC1C3;
+    border: 5px solid #BFC1C3;
+    //padding: 5px;
+    margin: 100px;
+  }
+
+  .more-info {
+    color: $moreinfo-color;
+  }
+
+  .updated-at {
+    color: rgba(255, 255, 255, 0.7);
+  }
+
+  .headings {
+      color: black
+  }
+}
